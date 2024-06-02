@@ -1,9 +1,11 @@
 h1 {
     text-align: center;
     font-family:'Rubik Bubbles';
+    transition-duration: 1s;
 }
 ul, li{
     font-family:'LXGW WenKai Mono TC';
+    transition-duration: 1s;
 }
 .social img {
     width:100px;
@@ -11,6 +13,7 @@ ul, li{
     border:5px double blueviolet;
     border-radius: 10px;
     background-color: #6C8CD5;
+    transition-duration: 1s;
 }
 nav a {
     background-color: #6C8CD5;
@@ -19,10 +22,12 @@ nav a {
     padding:10px;
     border:2px dashed #FF9900;
     border-radius:40%;
+    transition-duration: 1s;
 
 }
 nav{
     padding:15px;
+    transition-duration: 1s;
 }
 p {
     background-color: #689CD2;
@@ -52,4 +57,40 @@ li :first-child {
 }
 h2 {
     font-family: 'Press Start 2P';
+    transition-duration: 1s;
+    border:0px solid lightblue;
+}
+nav a:hover {
+    background-color: #FFDF73;
+    transition-duration: 1s;
+    font-size: 47px;
+}
+h2:hover {
+    color:#04376C	;
+    transition-duration: 1s;
+    border:10px solid #04376C	;
+    padding:10px;
+}
+li:hover {
+    color:#FF8040;
+    transition-duration: 1s;
+    font-size: 25px;
+}
+.social img:hover {
+    width:125px;
+    height:125px;
+    border:12px solid #689CD2;
+    transform: scale(1.25);
+    transform: rotate(3600deg);
+}
+a:hover {
+    transition-duration: 1s;
+    padding:5px;
+    font-size: 22px;
+    transform: translateX(100px);
+}
+h1:hover {
+    color:#689CD2;
+    text-decoration:wavy;
+    transform: rotateX(1080deg);
 }
